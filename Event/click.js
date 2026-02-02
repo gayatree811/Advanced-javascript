@@ -1,9 +1,9 @@
 //on click
 
-/* let p = document.querySelector("p");
+ let p = document.querySelector("p");
 p.addEventListener("click" , function(){
     p.style.color="red";
-}); */
+}); 
 
 
 //double click  and alsoto remove it
