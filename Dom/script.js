@@ -1,4 +1,4 @@
-let abcd = document.getElementById("gayatree");
+ let abcd = document.getElementById("gayatree");
 console.dir(abcd);
 
 //1) if we want to change the context of the element then we can make like
@@ -90,4 +90,14 @@ div.setAttribute("title" , "some info");
 
 // remove the disabled attribute from a button
 let btn = document.querySelector("button");
-btn.removeAttribute("disabled");
+btn.removeAttribute("disabled"); 
+
+
+
+// make a h2 tag andchange its color to red
+
+let h2 = document.querySelectorAll("h2");
+
+h2.forEach(function(element) {
+    element.style.color = "red";
+});
